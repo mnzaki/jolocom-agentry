@@ -1,0 +1,10 @@
+{
+  "name": "agentry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jolocom-sdk": "^0.5.2",
+    "ws": "^7.2.5"
+  }
+}
