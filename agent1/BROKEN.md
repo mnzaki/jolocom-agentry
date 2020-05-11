@@ -1,9 +1,12 @@
 Run using
 ```
-node index.js
+node index.js -l 6789
+```
+
+Then in another dir agent2
+```
+node ../agent1/index.js localhost:6789
 ```
 
 TODO
-First run fails and results in a broken DB
-Second run fails because of missing table (because broken DB)
-delete DB and debug first run again
+  interaction fails at end because of missing table

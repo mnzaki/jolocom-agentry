@@ -2168,10 +2168,10 @@ jolocom-registry-contract@^0.1.7:
     typescript "^2.6.2"
     web3 "1.0.0-beta.29"
 
-jolocom-sdk@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/jolocom-sdk/-/jolocom-sdk-0.5.2.tgz#43b2ab667428b4b63b62250f3acd5b7728a59104"
-  integrity sha512-rb+dZ308ILqkV0oVlayuMafRLKJf1vH5uOUI1EMBVHEk58RpM4uKb/d3TE9ZwrjBCmuhnmLHVotX3YoN7xUDKw==
+jolocom-sdk@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/jolocom-sdk/-/jolocom-sdk-0.6.0.tgz#437f5ba77e5a97ed59180bbde41c2855e3ea1431"
+  integrity sha512-vG48qwxKWaPt5Xwj2qVayz6+DMjj6oIbh6dmYerj9ywtvuohsrlLmqv9GCc1rXD7+rKTb/6qKyvo1Cj2cIUFQA==
   dependencies:
     assert "^2.0.0"
     bip39 "^3.0.2"
@@ -2668,6 +2668,11 @@ node-forge@^0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.9.1.tgz#775368e6846558ab6676858a4d8c6e8d16c677b5"
   integrity sha512-G6RlQt5Sb4GMBzXvhfkeFmbqR6MzhtnT7VTHuLadjkii3rdYHNdw0m8zA4BTxVIh68FicCQ2NSUANpsqkr9jvQ==
+
+node-gyp-build@~3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-3.7.0.tgz#daa77a4f547b9aed3e2aac779eaf151afd60ec8d"
+  integrity sha512-L/Eg02Epx6Si2NXmedx+Okg+4UHqmaf3TNcxd50SF9NQGcJaON3AtU++kax69XV7YWz4tUspqZSAsVofhFKG2w==
 
 node-pre-gyp@^0.11.0:
   version "0.11.0"
@@ -4133,6 +4138,13 @@ url-to-options@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
   integrity sha1-FQWgOiiaSMvXpDTvuu7FBV9WM6k=
+
+utf-8-validate@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/utf-8-validate/-/utf-8-validate-5.0.2.tgz#63cfbccd85dc1f2b66cf7a1d0eebc08ed056bfb3"
+  integrity sha512-SwV++i2gTD5qh2XqaPzBnNX88N6HdyhQrNNRykvcS0QKvItV9u3vPEJr+X5Hhfb1JC0r0e1alL0iB09rY8+nmw==
+  dependencies:
+    node-gyp-build "~3.7.0"
 
 utf8@2.1.1:
   version "2.1.1"
