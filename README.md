@@ -1,10 +1,5 @@
 ## Websockets agent
-First initialise the agent DB
-```
-yarn run typeorm -f typeorm_agent/ormconfig.js schema:sync
-```
-
-Then run the first agent:
+Run the first agent:
 ```
 node ws_agent1/index.js -l 6789
 ```
