@@ -1,7 +1,7 @@
 const { JSONWebToken } = require('jolocom-lib/js/interactionTokens/JSONWebToken')
 const typeorm = require('typeorm')
-const { JolocomTypeormStorage } = require('jolocom-sdk-storage-typeorm')
-const { JolocomSDK, FilePasswordStore } = require('jolocom-sdk')
+const { JolocomTypeormStorage } = require('@jolocom/sdk-storage-typeorm')
+const { JolocomSDK, FilePasswordStore } = require('@jolocom/sdk')
 const WebSocket = require('ws')
 let hostport
 
@@ -9,10 +9,10 @@ const typeormConfig = {
   type: 'sqlite',
   database: __dirname + '/db.sqlite3',
   logging: ['error', 'warn', 'schema'],
-  entities: [ ...require('jolocom-sdk-storage-typeorm').entityList ], 
-  migrations: [__dirname + '/migrations/*.js'],
+  entities: [ ...require('@jolocom/sdk-storage-typeorm').entityList ],
+  migrations: [__dirname + '/migrations/*.ts'],
   migrationsRun: true,
-  synchronize: false,
+  synchronize: true,
   cli: {
     migrationsDir: __dirname + '/migrations',
   },
@@ -25,7 +25,6 @@ async function start() {
   }
 
   const typeormConnection = await typeorm.createConnection(typeormConfig)
-  await typeormConnection.synchronize(true)
   const storage = new JolocomTypeormStorage(typeormConnection)
   const passwordStore = new FilePasswordStore(__dirname+'/password.txt')
 

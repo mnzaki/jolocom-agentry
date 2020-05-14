@@ -1,12 +1,12 @@
 ## Websockets agent
 Run the first agent:
 ```
-node ws_agent1/index.js -l 6789
+yarn run ts-node ws_agent1/index.ts -l 6789
 ```
 
 Then the other agent
 ```
-node ws_agent2/index.js localhost:6789
+yarn run ts-node ws_agent2/index.ts localhost:6789
 ```
 
 
