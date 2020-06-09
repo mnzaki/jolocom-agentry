@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@jolocom/sdk-password-store-filesystem@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@jolocom/sdk-password-store-filesystem/-/sdk-password-store-filesystem-0.1.0.tgz#4b9053ef57aa63db1a548a060a7f93a7a2b2b79c"
+  integrity sha512-j8sKmOUKQvUQMqFzMm9Yv5oqiJuikm7GaHU4gMa2mVPQcpoX7oGP7Sfgt2PkYK+Z8myRtqU5qb8Y6OKOJBvFug==
+
 "@jolocom/sdk-storage-typeorm@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@jolocom/sdk-storage-typeorm/-/sdk-storage-typeorm-1.1.0.tgz#79682411ef275bf1937aa95ac35ac8bd5182d1fa"
@@ -9,10 +14,10 @@
   dependencies:
     class-transformer "^0.2.3"
 
-"@jolocom/sdk@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@jolocom/sdk/-/sdk-0.7.0.tgz#ab0056f01372baf2ffa354a19433a85302df0514"
-  integrity sha512-FRk6uiPXT00ppGL7ORsCdxVn/pAFWfnc+mUx5y8b92q0jakPiMaykTZdN2H/zajqPxuniI2UZiQ3rEPpA4JABQ==
+"@jolocom/sdk@^0.9.12":
+  version "0.9.12"
+  resolved "https://registry.yarnpkg.com/@jolocom/sdk/-/sdk-0.9.12.tgz#187c3a5e7373068d309f265820a15903bf7a2990"
+  integrity sha512-fHZJrjnqI0SIZ9wKNuM64xHW/e1WIm5TzDKbTwvcrKq7qZOttTAZc+xm4XF9Fta6NGoyQUeRb+a8ezk8a+A+nA==
   dependencies:
     assert "^2.0.0"
     bip39 "^3.0.2"
@@ -23,7 +28,7 @@
     events "^3.0.0"
     form-data "^3.0.0"
     i18n-js "^3.1.0"
-    jolocom-lib "^4.1.0"
+    jolocom-lib "^4.3.2"
     ramda "^0.26.1"
     sjcl "^1.0.7"
     sqlite3 "^4.0.0"
@@ -1111,7 +1116,7 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-eccrypto@rootstock/eccrypto#485e11f163093fb6e0d5263fa46ed5075dedfe88:
+"eccrypto@github:rootstock/eccrypto#485e11f163093fb6e0d5263fa46ed5075dedfe88", eccrypto@rootstock/eccrypto#485e11f163093fb6e0d5263fa46ed5075dedfe88:
   version "1.1.2"
   resolved "https://codeload.github.com/rootstock/eccrypto/tar.gz/485e11f163093fb6e0d5263fa46ed5075dedfe88"
   dependencies:
@@ -2168,10 +2173,10 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
-jolocom-lib@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/jolocom-lib/-/jolocom-lib-4.1.0.tgz#dcbf79e62201e6fdcec2fa2fa9f1da4da687238f"
-  integrity sha512-Ab5aYuOpaAetNV8F7shadvFWYtULrclCzxb1sVljF3VI34higSbOy3qYn1V+XhRR5MT1dGKhrr4wQedscPs++w==
+jolocom-lib@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/jolocom-lib/-/jolocom-lib-4.3.2.tgz#bfbc8a39eb757f7521750d1c7fe08c5068bb0d8d"
+  integrity sha512-heHuifeVPumhm2HZQxc4S64ptTNV71yci0s8QVpRabkX33h5h9/h7yfDjEJJcjv7KKs5YG7k0eUrOchORzkRrg==
   dependencies:
     base64url "^3.0.1"
     bip32 "^1.0.2"
@@ -4065,10 +4070,10 @@ typescript@^2.6.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
   integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
 
-typescript@^3.9.2:
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.2.tgz#64e9c8e9be6ea583c54607677dd4680a1cf35db9"
-  integrity sha512-q2ktq4n/uLuNNShyayit+DTobV2ApPEo/6so68JaD5ojvc/6GClBipedB9zNWYxRSAlZXAe405Rlijzl6qDiSw==
+typescript@^3.9.5:
+  version "3.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
+  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
 
 ultron@~1.1.0:
   version "1.1.1"
