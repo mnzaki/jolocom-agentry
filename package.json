@@ -6,7 +6,7 @@
   "dependencies": {
     "@jolocom/sdk": "^0.7.0",
     "@jolocom/sdk-storage-typeorm": "^1.1.0",
-    "typeorm": "^0.2.24",
+    "typeorm": "^0.2.25",
     "typescript": "^3.9.2",
     "utf-8-validate": "^5.0.2",
     "ws": "^7.2.5"
